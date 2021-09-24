@@ -1,0 +1,282 @@
+/* Whole body of website */
+body {
+  line-height: 1;
+  font-family: "Montserrat";
+  max-width: 100%;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+  
+  /* Login bar */
+   ul.nav.justify-content-end {
+    padding-right: 40px;
+  }
+  
+  .icons {
+    color: #fff;
+    padding: 0px 5px;
+  }
+  
+  /* Navigation bar */
+  .logo {
+    margin: 0 30px;
+  }
+  .navigation {
+    padding: 4px 0;
+  }
+  #NavBar .nav-item {
+    padding: 0px 5px;
+  }
+  
+  a.nav-link {
+    padding: 0.5rem 0.1rem;
+  }
+  a.nav-link1 {
+    padding: 0.5rem 1.2rem;
+    color: #fff;
+  }
+  
+  
+  .dropdown-item {
+    padding: 1rem 1rem;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+    /* Footer section */
+  #footer {
+    margin-top: 5%;
+    padding: 3% 2%;
+    background-color: #094664;
+    text-align: center;
+  }
+
+  #footer p {
+    color: #fff;
+    display: inline-block;
+  }
+  .contact {
+    border: 5px solid #094664;
+  }
+
+
+  #footer {
+    margin-top: 5%;
+    padding: 3% 2%;
+    background-color: #094664;
+    text-align: center;
+  }
+
+  .statement{
+      padding: 3% 7%;
+  }
+  .quotes{
+      margin: 0% 7% 3% 0%;
+  }
+  .complex{
+  font-weight:bold;
+  font-size: 20px;
+  color: rgb(7, 54, 82);
+  text-align:left;
+  margin-top: 7%;
+  font-family:'Arial',Times,serif;
+  display: inline-block;
+  }
+
+ 
+
+
+
+
+
+
+ /* winner stories*/
+
+.title{
+  padding-left: 4%;
+  padding-top: 8%;
+  text-align: center;
+  padding-right: 2%;
+  font-size: 40px;
+  }
+
+  .parallax{
+    background: url('images/achievements/b7.jpeg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+
+  
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+
+section .section-title {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background:#248394;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #12007b ;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color:#12007b ;
+}
+
+.frontside .card .card-body img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+    /* video */
+    #section-3{
+      background-color: rgb(10, 2, 39);
+      color: #fff;
+      height: 700px;
+      text-align: center;
+    }
+  
+.hero{
+  position: relative;
+  margin-bottom: 0%;
+}
+
+#hero video{
+  height:100vh;
+  width:100%;
+  background-position:absolute;
+  z-index: 10;
+  object-fit:cover;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  
+  width:100%;
+  opacity:50%;
+  color: #f1f1f1;
+  font-size: 120px;
+  padding: 0px 20PX;
+  text-align: center;
+}
+
+    /* carousel */
+
+
+#section-1{
+  background-color: rgb(10, 2, 39);
+  color: #fff;
+  height: 460px;
+  text-align: center;
+  padding-top: 0%;
+}
+
