@@ -1,0 +1,115 @@
+body {
+  line-height: 1;
+  font-family: "Montserrat";
+}
+
+/* Login bar */
+ul.nav.justify-content-end {
+  padding-right: 40px;
+}
+
+.icons {
+  color: #fff;
+  padding: 0px 5px;
+}
+.dropdown-item {
+  padding: 1rem 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+.head-font1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  padding-top: 12%;
+}
+.head-font {
+  text-align: center;
+  padding-top: 2%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 14%;
+  padding-left: 55%;
+}
+
+.head-img {
+  background-image: url("images/mitch-rosen-g9SNY0aLMF0-unsplash.jpg");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+#Infraa {
+  margin-top: 4%;
+  padding-bottom: 5%;
+}
+.sports-infra {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.hello {
+  padding-bottom: 2%;
+}
+.som_table {
+  padding-top: 5%;
+  padding-right: 6%;
+}
+#cricket {
+  background-color: black;
+  height: 900px;
+  width: 100%;
+  color: #fff;
+}
+.img-360 {
+  padding-top: 2%;
+  width: 100%;
+  height: auto;
+}
+
+.football-text {
+  padding-top: 8%;
+  padding-left: 6%;
+  display: inline-block;
+  width: 45%;
+}
+.foot-img {
+  float: right;
+  padding: 3%;
+  height: 30%;
+  width: 50%;
+}
+
+/* Footer section */
+#footer {
+  margin-top: 5%;
+  padding: 3% 2%;
+  background-color: #094664;
+  text-align: center;
+}
+#footer p {
+  color: #fff;
+  display: inline-block;
+}
+.contact {
+  border: 5px solid #094664;
+}
+
+.c-icons {
+  color: #fff;
+  padding-right: 5px;
+}
+.copyright {
+  background-color: #094664;
+  font-size: 0.65rem;
+  padding: 3px 0px;
+  margin-bottom: 0;
+}
+.center {
+  margin-left: 20%;
+  margin-right: auto;
+}
