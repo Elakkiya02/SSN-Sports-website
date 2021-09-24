@@ -21,9 +21,8 @@ body {
     }
   }
 .alumni-img{
-    background-image: url("Images/dark_head_fac_img.jpg");
-
-    height: 420px;
+    background-image: url("Photos/alumni.jpg");
+    height: 625px;
     background-size: cover;
 }  
 .card {
@@ -53,7 +52,10 @@ body {
   padding-top: 6%;
   padding-left: 8%;
 }
-
+#arjuna{
+  padding-top: 8%;
+  padding-left: 17%;
+}
 video {
   width: 100%;
   height: auto;
