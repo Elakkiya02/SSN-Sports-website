@@ -1,0 +1,170 @@
+/* Whole body of website */
+body {
+  line-height: 1;
+  font-family: "Montserrat";
+  max-width: 100%;
+}
+
+/* Login bar */
+ul.nav.justify-content-end {
+  padding-right: 40px;
+}
+
+.icons {
+  color: #fff;
+  padding: 0px 5px;
+}
+
+/* Navigation bar */
+.logo {
+  margin: 0 30px;
+}
+.navigation {
+  padding: 4px 0;
+}
+#NavBar .nav-item {
+  padding: 0px 5px;
+}
+
+a.nav-link {
+  padding: 0.5rem 0.1rem;
+}
+a.nav-link1 {
+  padding: 0.5rem 1.2rem;
+  color: #fff;
+}
+
+.dropdown-item {
+  padding: 1rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* Footer section */
+#footer {
+  margin-top: 5%;
+  padding: 3% 2%;
+  background-color: #094664;
+  text-align: center;
+}
+#footer p {
+  color: #fff;
+  display: inline-block;
+}
+.contact {
+  border: 5px solid #094664;
+}
+
+.c-icons {
+  color: #fff;
+  padding-right: 5px;
+}
+.copyright {
+  background-color: #094664;
+  font-size: 0.65rem;
+  padding: 3px 0px;
+  margin-bottom: 0;
+}
+
+.statement {
+  padding: 3% 7%;
+}
+.quotes {
+  margin: 0% 7% 3% 0%;
+}
+.complex {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(7, 54, 82);
+  text-align: left;
+  margin-top: 7%;
+  font-family: "Arial", Times, serif;
+  display: inline-block;
+}
+
+/* Table */
+* {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #094664;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #094664;
+}
+/* Banner*/
+.bannerWrap {
+  height: 539px;
+  position: relative;
+  background-size: cover !important;
+  background-position: center right !important;
+  object-fit: fill;
+}
+
+.bannerWrapCaption {
+  height: 539px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 25%;
+  background: #094664;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerAngledOne {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 16%;
+  left: 15%;
+  height: 539px;
+  background: #094664;
+  transform: skewX(-14deg);
+}
+
+.bannerAngledTwo {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 5%;
+  left: 30.5%;
+  height: 539px;
+  background: #094664;
+  transform: skewX(-14deg);
+  opacity: 0.2;
+}
