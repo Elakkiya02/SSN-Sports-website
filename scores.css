@@ -1,0 +1,172 @@
+
+
+  /* Whole body of website */
+body {
+    line-height: 1;
+    font-family: "Montserrat";
+  }
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  
+  /* Login bar */
+  ul.nav.justify-content-end {
+    padding-right: 40px;
+  }
+  
+  .icons {
+    color: #fff;
+    padding: 0px 5px;
+  }
+  
+  /* Navigation bar */
+  .logo {
+    margin: 0 30px;
+  }
+  .navigation {
+    padding: 3px 0;
+  }
+  #NavBar .nav-item {
+    padding: 0px 10px;
+  }
+  
+  a.nav-link {
+    padding: 0.5rem 0.1rem;
+  }
+  
+  .dropdown-item {
+    padding: 1rem 1rem;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }
+
+  /* Footer section */
+#footer {
+    margin-top: 5%;
+    padding: 3% 2%;
+    background-color: #094664;
+    text-align: center;
+  }
+  #content
+  {
+    background-color:#094664;
+  }
+  #footer p {
+    color: #fff;
+    display: inline-block;
+  }
+  .contact {
+    border: 5px solid #094664;
+  }
+  .card-title{
+     font-weight:bold;
+     font-size: 12px;
+     color: rgb(7, 54, 82);
+     text-align: left;
+     font-family:'Arial',Times,serif;
+
+  }
+
+  .card{
+    text-align: center;
+  }
+    
+  .card-text{
+    font-weight:bold;
+    font-size: 16px;
+    color: rgb(61, 4, 99);
+    text-align: center;
+    font-family:Times,serif;
+ }
+ 
+
+.hello{
+  max-width: 100%;
+  height: auto;
+  filter: opacity(60%) blur(3px);
+  border-style: groove;
+}
+.mainContentArea{
+  font-weight:bold;
+  padding: 3px ;
+  font-size: 110px;
+  color: rgb(246, 246, 252);
+  text-align: left;
+  
+  
+
+}
+
+.bannerWrap {
+  height: 539px;
+  position: relative;
+  background-size: cover !important;
+  background-position: center right !important;
+  object-fit: fill;
+}
+
+.bannerWrapCaption {
+  height: 539px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 25%;
+  background: #094664;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerAngledOne {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 16%;
+  left: 15%;
+  height: 539px;
+  background: #094664;
+  transform: skewX(-14deg);
+}
+
+.bannerAngledTwo {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 5%;
+  left: 30.5%;
+  height: 539px;
+  background: #094664;
+  transform: skewX(-14deg);
+  opacity: 0.2;
+}
+
+.parallax{
+  background: url('images/back.jpeg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+.container {
+  margin:auto auto; 
+  width:100%; 
+}
+
+
+/* @media only screen and(min-width:768px)
+{
+  .dropdown:hover .dropdown-menu{
+    display:block;
+  }
+}
+
+@media only screen and(min-width:900px){
+  .card-deck
+ } */
