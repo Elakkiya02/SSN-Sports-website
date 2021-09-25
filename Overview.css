@@ -121,7 +121,7 @@ ul.nav.justify-content-end {
 }
 
 .parallax{
-  background: url('Photos/cricket.jpg') no-repeat center;
+  background: url('images/cricket.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
