@@ -1,3 +1,4 @@
+
 body {
   line-height: 1;
   font-family: "Montserrat";
@@ -21,69 +22,104 @@ ul.nav.justify-content-end {
   }
 }
 
-.head-font1 {
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  padding-top: 12%;
-}
-.head-font {
-  text-align: center;
-  padding-top: 2%;
-  color: #fff;
-  font-size: 30px;
-  font-weight: bolder;
-  padding-top: 14%;
-  padding-left: 55%;
+.head-font1{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      color: black;
+      padding-top: 12%;
+ }
+.head-font{
+    text-align: center;
+    padding-top: 2%;
+    color: #F5FDB0;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 14%;
+    padding-left: 55%;
 }
 
-.head-img {
-  background-image: url("images/mitch-rosen-g9SNY0aLMF0-unsplash.jpg");
-  width: 100%;
-  height: 700px;
-  background-size: cover;
+.head-img{
+    background-image: url('Photos/DSC_0246.JPG');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
 }
-#Infraa {
-  margin-top: 4%;
+#Infraa{
+  margin-top: 4%;  
   padding-bottom: 5%;
 }
-.sports-infra {
+.sports-infra{
   padding-left: 3%;
   padding-right: 3%;
 }
-.hello {
+.hello{
   padding-bottom: 2%;
 }
-.som_table {
+.som_table{
   padding-top: 5%;
   padding-right: 6%;
 }
-#cricket {
+#cricket{
   background-color: black;
-  height: 900px;
+  height: 1000px;
   width: 100%;
   color: #fff;
 }
-.img-360 {
-  padding-top: 2%;
+.tab-head{
+  letter-spacing: 2px;
+  text-align: center;
+}
+.img-360{
+  padding-top: 4%;
   width: 100%;
   height: auto;
+  padding: 2%;
 }
 
-.football-text {
+.football-text{
   padding-top: 8%;
   padding-left: 6%;
   display: inline-block;
   width: 45%;
 }
-.foot-img {
+.foot-img{
   float: right;
   padding: 3%;
   height: 30%;
   width: 50%;
 }
+#track{
+  padding-top: 5%;
+}
+.track-text{
+  padding-top: 8%;
+  padding-left: 6%;
+  display: inline-block;
+  width: 45%;
+}
+.track-img{
+  float: left;
+  padding: 3%;
+  height: 30%;
+  width: 50%;
+}
 
+#basketball{
+  padding-top: 5%;
+}
+.basketball-text{
+  padding-top: 8%;
+  padding-left: 6%;
+  display: inline-block;
+  width: 45%;
+}
+.basketball-img{
+  float: right;
+  padding: 3%;
+  height: 30%;
+  width: 50%;
+}
 /* Footer section */
 #footer {
   margin-top: 5%;
