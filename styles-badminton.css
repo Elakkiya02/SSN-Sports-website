@@ -147,7 +147,7 @@ a.nav-link {
 }
 .header {
   /* The image used */
-  background-image: url("/images/badminton.jpg");
+  background-image: url("images/badminton.jpg");
 
   /* blur effect */
   filter: blur(4px);
