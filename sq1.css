@@ -147,7 +147,7 @@ a.nav-link {
 }
 .header {
   /* The image used */
-  background-image: url("/images/squash.jpeg");
+  background-image: url("images/squash.jpeg");
 
   /* blur effect */
   filter: blur(4px);
