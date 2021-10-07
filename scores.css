@@ -72,7 +72,7 @@ a.nav-link {
 .card-title {
   font-weight: bold;
   font-size: 12px;
-  color: rgb(7, 54, 82);
+  color: rgb(106, 126, 138);
   text-align: left;
   font-family: "Arial", Times, serif;
 }
@@ -84,7 +84,7 @@ a.nav-link {
 .card-text {
   font-weight: bold;
   font-size: 16px;
-  color: rgb(61, 4, 99);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-family: Times, serif;
 }
@@ -92,7 +92,6 @@ a.nav-link {
 .hello {
   max-width: 100%;
   height: auto;
-  filter: opacity(60%) blur(3px);
   border-style: groove;
 }
 .mainContentArea {
