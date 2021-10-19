@@ -157,12 +157,11 @@ a.nav-link {
   width: 100%;
 }
 
-/* @media only screen and(min-width:768px)
-{
-  .dropdown:hover .dropdown-menu{
-    display:block;
+@media (min-width:580px) and (max-width:900px){
+  .card-text{
+    font-size: 7px;
+  } 
+  .card-title {
+    font-size: 8px;
   }
 }
-@media only screen and(min-width:900px){
-  .card-deck
- } */
