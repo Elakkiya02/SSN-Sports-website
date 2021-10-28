@@ -50,14 +50,77 @@ a.nav-link {
 
 .homeBannerVideo video {
   position: relative;
-  z-index: 10;
+  z-index: 0;
   top: 0;
   width: 100%;
   height: 40%;
 }
-
+/* .VideoBannerText {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  z-index: 1;
+  text-align: center;
+}
+.VideoBannerText {
+  background-color: rgba(252, 252, 252, 0.966);
+}
+.topText {
+  color: #000;
+  font-size: 4.5rem;
+  align-self: center;
+  font-weight: bolder;
+}
+.topPara {
+  font-size: 1.5rem;
+} */
 /* Announcements and latest news division */
-#second-div {
+.ann {
+  margin-top: 5%;
+  padding: 2% 5% 2%;
+  background-color: #fff;
+}
+.announcements {
+  text-align: center;
+  padding: 0.5rem 0rem;
+  margin-bottom: 2.5rem;
+  background-color: #005a87;
+  color: #fff;
+  font-weight: 900;
+}
+.card {
+  border-radius: 0;
+}
+.card:hover {
+  transform: scale(1.2);
+  z-index: 11; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.new-icon {
+  width: 20%;
+  float: right;
+}
+.new {
+  background: #24c6dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #514a9d,
+    #24c6dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #514a9d,
+    #24c6dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 1.5px #fffefa solid;
+  color: #fff;
+}
+.old {
+  background-color: #fffefa;
+  border: 1.5px #005a87 solid;
+  color: #000;
+}
+/* #second-div {
   background-color: #fff;
   margin-top: 5%;
 }
@@ -85,13 +148,7 @@ a.nav-link {
   overflow-x: hidden;
   margin-left: 10px;
   margin: 0 0 0 10px;
-}
-
-/* Cards try */
-/* .card-body img {
-  width: 20%;
-  display: block;
-}
+} */
 
 /* Footer section */
 #footer {
@@ -106,6 +163,10 @@ a.nav-link {
 }
 .contact {
   border: 5px solid #094664;
+}
+.contact a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .c-icons {
@@ -183,81 +244,12 @@ a.nav-link {
   font-weight: bold;
 }
 
-/* Testimonials */
-#testimonials {
-  padding: 2% 5%;
-}
-
-.doodad hr {
-  border: none;
-  border-top: 2px solid #0096d6;
-  text-align: center;
-  line-height: 48px;
-  height: 22px;
-  margin-top: 24px;
-  background-color: #fff;
-  overflow: visible;
-}
-div.doodad hr:after {
-  content: url("https://www.gwu.edu/sites/all/themes/gwu_marketing/images/hr/doodad.svg");
+/* Quota section */
+.sport-item {
+  list-style: none;
   display: inline-block;
-  position: relative;
-  top: -24px;
-  padding: 0 6px;
-  background: #fff;
-  height: 48px;
+  padding-left: 1rem;
 }
-
-.doodad-not hr {
-  border: none;
-  border-top: 2px solid #0096d6;
-  text-align: center;
-  line-height: 48px;
-  height: 22px;
-  margin-top: 24px;
-  background-color: #fff;
-  overflow: visible;
-}
-.container-fluid .i-wrap img {
-  height: auto !important;
-  width: 25% !important;
-  float: right;
-  padding-right: 3%;
-}
-
-.quote {
-  padding: 3% 7% 3% 3%;
-  width: 75%;
-  display: inline-block;
-}
-.name {
-  padding: 3% 7% 3% 3%;
-  width: 75%;
-  display: inline-block;
-  font-weight: bold;
-}
-
-/* Criteria section */
-#criteria {
-  padding: 1% 5% 0%;
-  text-align: center;
-}
-
-.criteria-head {
-  padding-bottom: 2%;
-}
-
-.details p {
-  display: inline-block;
-  background-color: black;
-  color: white;
-  padding: 2% 7%;
-}
-
-.left {
-  margin-right: 20px;
-}
-
 /* Events page */
 .topic {
   padding: 2% 2.5% 1%;
@@ -456,7 +448,7 @@ div.doodad hr:after {
 }
 .header {
   /* The image used */
-  background-image: url("images/SSN\ cricket.png");
+  background-image: url("/images/SSN\ cricket.png");
 
   /* blur effect */
   filter: blur(4px);
@@ -489,16 +481,6 @@ div.doodad hr:after {
 
 @media only screen and (max-width: 900px) {
   .bannerWrap {
-    width: 100%;
-    position: relative;
-    background-size: cover !important;
-    background-position: center right !important;
-    object-fit: fill;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .bannerWrap {
     height: 300px;
     position: relative;
     background-size: cover !important;
@@ -507,7 +489,7 @@ div.doodad hr:after {
   }
 
   .bannerWrapCaption {
-    height: 300px;
+    /* height: 300px;
     position: absolute;
     top: 0;
     left: 0;
@@ -516,22 +498,24 @@ div.doodad hr:after {
     background: #094664;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    display: none;
   }
 
   .bannerAngledOne {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     z-index: 5;
     width: 16%;
     left: 15%;
     height: 300px;
     background: #094664;
-    transform: skewX(-14deg);
+    transform: skewX(-14deg); */
+    display: none;
   }
 
   .bannerAngledTwo {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     z-index: 10;
     width: 5%;
@@ -539,23 +523,28 @@ div.doodad hr:after {
     height: 300px;
     background: #094664;
     transform: skewX(-14deg);
-    opacity: 0.2;
+    opacity: 0.2; */
+    display: none;
   }
 
   #Imgtxt h2 {
+    background-color: #094664;
     font-size: 1.25rem;
+    color: #000;
+  }
+  .sch-title {
+    display: block;
     color: #fff;
-    padding-left: 15px;
+    background-color: #094664;
   }
 }
 
 /* Mobile response section */
-@media only screen and (min-width: 768px) {
-  .dropdown:hover .dropdown-menu {
+@media only screen and (max-width: 900px) {
+  .navbarDropdown:active {
     display: block;
   }
 }
-
 @media only screen and (max-width: 900px) {
   .bannerWrap {
     width: 100%;
@@ -563,5 +552,14 @@ div.doodad hr:after {
     background-size: cover !important;
     background-position: center right !important;
     object-fit: fill;
+  }
+}
+
+@media only screen and(max-width: 900px) {
+  .topText {
+    font-size: 2rem;
+  }
+  .topPara {
+    font-size: 1rem;
   }
 }
