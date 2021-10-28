@@ -1,0 +1,90 @@
+/* Whole body of website */
+body {
+  line-height: 1.5;
+  font-family: "Montserrat";
+}
+h2 {
+  font-weight: bolder;
+}
+
+video {
+  object-fit: contain;
+}
+
+/* Login bar */
+ul.nav.justify-content-end {
+  padding-right: 40px;
+}
+
+.icons {
+  color: #fff;
+  padding: 0px 5px;
+}
+
+/* Navigation bar */
+.logo {
+  margin: 0 30px;
+}
+.navigation {
+  padding: 3px 0;
+}
+#NavBar .nav-item {
+  padding: 0px 10px;
+}
+
+a.nav-link {
+  padding: 0.5rem 0.1rem;
+}
+
+.dropdown-item {
+  padding: 1rem 1rem;
+}
+/* Calendar */
+
+.manage {
+  text-align: center;
+}
+.topic {
+  margin: 2% 0% 2%;
+}
+#calendar {
+  width: 80%;
+}
+
+/* Footer section */
+#footer {
+  margin-top: 5%;
+  padding: 3% 2%;
+  background-color: #094664;
+  text-align: center;
+}
+#footer p {
+  color: #fff;
+  display: inline-block;
+}
+.contact {
+  border: 5px solid #094664;
+}
+.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.c-icons {
+  color: #fff;
+  padding-right: 5px;
+}
+.copyright {
+  background-color: #094664;
+  font-size: 0.65rem;
+  padding: 3px 0px;
+  margin-bottom: 0;
+}
+
+/* Google */
+.demo {
+  text-align: center;
+}
+.calendar-container {
+  font-family: "Monserrat", sans-serif;
+}
