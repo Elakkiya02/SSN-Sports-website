@@ -21,9 +21,9 @@ ul.nav.justify-content-end {
   }
 }
 .alumni-img {
-  background-image: url("images/alumni.jpg");
   height: 625px;
-  background-size: cover;
+  background: url(images/alumni.jpg) no-repeat center ; 
+  -webkit-background-size: cover;
 }
 .card {
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
