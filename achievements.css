@@ -101,7 +101,7 @@ a.nav-link1 {
 }
 
 .parallax {
-  background: url("images/b7.jpeg") no-repeat center;
+  background: url("images/back.jpeg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -123,7 +123,7 @@ section .section-title {
 
 #team .card {
   border: none;
-  background: #248394;
+  background: #221e2b;
 }
 
 .image-flip:hover .backside,
@@ -205,13 +205,18 @@ section .section-title {
 
 .backside .card a {
   font-size: 18px;
-  color: #12007b;
+  color: #ffffff;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-  color: #12007b;
+  color: #ffffff;
 }
+.frontside .card .card-text,
+.backside .card .card-text {
+  color: #ffffffbd;
+}
+
 
 .frontside .card .card-body img {
   width: 200px;
@@ -225,6 +230,10 @@ section .section-title {
   color: #fff;
   height: 700px;
   text-align: center;
+}
+video {
+  max-width: 100%;
+  height: auto;
 }
 
 .hero {
@@ -240,20 +249,7 @@ section .section-title {
   object-fit: cover;
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
 
-  width: 100%;
-  opacity: 50%;
-  color: #f1f1f1;
-  font-size: 120px;
-  padding: 0px 20px;
-  text-align: center;
-}
 
 /* carousel */
 
@@ -268,3 +264,21 @@ section .section-title {
   margin: auto auto;
   width: 100%;
 }
+
+@media (min-width:580px) and (max-width:900px){
+  .card-text{
+    font-size: 10px;
+  } 
+  .card-title {
+    font-size: 13px;
+  }
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+  }
+
+}
+
+
