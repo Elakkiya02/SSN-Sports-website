@@ -1,0 +1,116 @@
+body {
+  line-height: 1;
+  font-family: "Montserrat";
+}
+
+/* Login bar */
+ul.nav.justify-content-end {
+  padding-right: 40px;
+}
+
+.icons {
+  color: #fff;
+  padding: 0px 5px;
+}
+.dropdown-item {
+  padding: 1rem 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+.bannerWrap {
+  height: 539px;
+  position: relative;
+  background-size: cover !important;
+  background-position: center right !important;
+  object-fit: fill;
+}
+
+.bannerWrapCaption {
+  height: 539px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  width: 25%;
+  background: #094664;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerAngledOne {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 16%;
+  left: 15%;
+  height: 539px;
+  background: #094664;
+  transform: skewX(-14deg);
+}
+
+.bannerAngledTwo {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 5%;
+  left: 30.5%;
+  height: 539px;
+  background: #094664;
+  transform: skewX(-14deg);
+  opacity: 0.2;
+}
+.gallery-1 {
+  padding-left: 3%;
+  font-size: 35px;
+  padding-top: 5%;
+}
+
+/*Navigation bar*/
+
+#team-nav {
+  padding: 4px 31px 4px;
+  color: #005a87;
+  text-align: center;
+}
+
+#team-nav:hover {
+  background-color: #dae0e7;
+}
+
+.carousel-item .img-fluid {
+  width: 100%;
+  height: 100%;
+}
+/* Footer section */
+#footer {
+  margin-top: 5%;
+  padding: 3% 2%;
+  background-color: #094664;
+  text-align: center;
+}
+#footer p {
+  color: #fff;
+  display: inline-block;
+}
+.contact {
+  border: 5px solid #094664;
+}
+
+.c-icons {
+  color: #fff;
+  padding-right: 5px;
+}
+.copyright {
+  background-color: #094664;
+  font-size: 0.65rem;
+  padding: 3px 0px;
+  margin-bottom: 0;
+}
+.center {
+  margin-left: 20%;
+  margin-right: auto;
+}
