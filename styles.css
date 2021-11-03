@@ -448,7 +448,7 @@ div.doodad hr:after {
 }
 .header {
   /* The image used */
-  background-image: url("/images/SSN\ cricket.png");
+  background-image: url("images/SSN cricket.png");
 
   /* blur effect */
   filter: blur(4px);
